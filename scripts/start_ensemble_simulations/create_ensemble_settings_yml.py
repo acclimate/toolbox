@@ -20,7 +20,7 @@ settingsdir = os.path.join(basedir, "settings", "acclimate_settings")
 settings_template = os.path.join(basedir, "settings_template.yml")
 
 # Example forcing file name to define regex pattern
-example_forcing_file = "impacts_ssp126_cnrm-cm6-1_2080-2089_preday.nc"
+example_forcing_file = "impacts_ssp126_cnrm-cm6-1_2079-2089_preday.nc"
 
 pattern = re.compile(r"impacts_([a-zA-Z0-9-]+)_([a-zA-Z0-9-]+)_(\d{4}-\d{4})_preday\.nc")
 
